@@ -1,11 +1,1 @@
-Configuration IISInstall
-{
-	node "localhost"
-	{
-		WindowsFeature IIS
-		{
-			Ensure ="Present"
-			Name = "Web-Server"
-		}
-	}
-}
+{<br> node "localhost"<br> {<br> WindowsFeature IIS<br> {<br> Ensure ="Present"<br> Name = "Web-Server"<br> }<br> }<br> }<br> <br>
